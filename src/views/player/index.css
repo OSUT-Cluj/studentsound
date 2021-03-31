@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.Player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Player-card-leftBox {
+  width: 25%;
+  margin-left: 10%;
+}
+
+.Player-card-rightBox {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25%;
+}
+
+.Player-card-rightBox-song,
+.Player-card-rightBox-artist {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 4%;
+}
+
+.Player-card-rightBox-artist {
+  font-size: 0.9em;
+}
+
+.Player-card-rightBox-song {
+  font-size: 1.4em;
+
+}
+
+.playlist {
+  margin-top: 10%;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.playlist p {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Player-card-leftBox-image {
+  width: 250px;
+  height: 250px;
+  margin-left: -30%;
+}
